@@ -89,6 +89,7 @@ graph TD
     Pool4 --> Flatten --> FC1 --> ReLU5 --> Dropout --> FC2 --> ReLU6 --> FC3 --> Sigmoid
 ```
 ---
+
 ## ⚙️ Installation & Setup
 
 1. **Clone the repository:**
