@@ -4,7 +4,7 @@ from torchvision import transforms
 from torchvision.io import read_image
 from random import shuffle
 from model import Model as model
-model.load_state_dict(torch.load('model_0_0.9445410628019324.pt'))#,device='cpu'))
+model.load_state_dict(torch.load('model_0_0.9490086956521739.pt'))#,device='cpu'))
 root='casting_data/casting_data/test/'
 transform = transforms.Compose([
   transforms.Grayscale(1),
